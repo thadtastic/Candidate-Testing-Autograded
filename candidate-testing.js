@@ -47,9 +47,12 @@ function gradeQuiz(candidateAnswers) {
 // } else {
 //   console.log("Wrong!");
 // }
- if (candidateAnswers === correctAnswers){
-  console.log(`Your Answer: ${candidateAnswers}
-  Correct Answer: ${correctAnswers}`);
+ for (let i = 0; i < correctAnswers.length; i++){
+  if (candidateAnswers[i] === correctAnswers[i]){
+  }
+  
+  console.log(`Your Answer: ${candidateAnswers[i]}
+  Correct Answer: ${correctAnswers[i]}`);
  }
 
 
