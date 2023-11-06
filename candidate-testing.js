@@ -52,7 +52,7 @@ function gradeQuiz(candidateAnswers) {
   }
   
   console.log(`Your Answer: ${candidateAnswers[i]}
-  Correct Answer: ${correctAnswers[i]}`);
+   Correct Answer: ${correctAnswers[i]}`);
  }
 
 
